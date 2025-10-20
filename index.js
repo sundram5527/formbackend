@@ -5,7 +5,7 @@ const cors = require('cors');
 //cors middleware
 // ✅ Allow requests from frontend
 app.use(cors({
-    origin:"http://localhost:5173", // your frontend url
+    origin:"https://formfrontend-production.up.railway.app/", // your frontend url
     methods: ["GET","POST","PUT","DELETE"],
     credentials:true
 }));
